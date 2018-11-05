@@ -104,6 +104,7 @@ img:hover {
     background-color: gray;
     font-size: 16px;
     font-size: 0.9rem;
+    border-radius: 6px;
 }
 
 /*main*/
@@ -148,6 +149,9 @@ img:hover {
 
 .review img {
     width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
 .review p {
