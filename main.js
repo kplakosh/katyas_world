@@ -13,9 +13,9 @@ function closeModal() {
     modal.style.display = 'none';
 }
 
-imageSF[0].addEventListener('click', openModal);
-imageSF[1].addEventListener('click', openModal);
-
+for (i = 0; i < imageSF.length; i++) {
+    imageSF[i].addEventListener('click', openModal);
+}
 
 // imageSF.onclick = openModal;
 backdrop.onclick = closeModal;
