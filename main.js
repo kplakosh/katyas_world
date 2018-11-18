@@ -18,6 +18,6 @@ for (i = 0; i < imageSF.length; i++) {
 }
 
 // imageSF.onclick = openModal;
-backdrop.onclick = closeModal;
+backdrop.addEventListener('click', closeModal);
 
 console.log(imageSF);
